@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#ea8b17,#ffffff, #0a9624);
+}
+
+p{
+    height: 100px;
+    width: 600px;
+    background-image: linear-gradient(#040505, #e8e2e4);
+    box-shadow: inset 0 0 10px #000000;
+    color: rgb(227, 255, 15);
+    line-height: 100px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    box-shadow: 1px 1px 0 #000,
+                2px 2px 0 #000,
+                3px 3px 0 #000,
+                4px 4px 0 #000,
+                5px 5px 0 #000,
+}
